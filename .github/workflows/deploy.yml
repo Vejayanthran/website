@@ -42,7 +42,8 @@ jobs:
       - name: Build
         run: pnpm build
         env:
-          VITE_BASE_PATH: '/${{ github.event.repository.name }}/'
+          # Use '/' for custom domains, or '/repo-name/' for github.io subdomains
+          VITE_BASE_PATH: '/'
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
