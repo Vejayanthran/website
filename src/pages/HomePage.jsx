@@ -4,6 +4,8 @@ import Navigation from '../components/Navigation';
 import Hero from '../components/Hero';
 import FundingProgress from '../components/FundingProgress';
 import Mission from '../components/Mission';
+import About from '../components/About';
+import EducationCrisis from '../components/EducationCrisis';
 import Scholarship from '../components/Scholarship';
 import Fellows from '../components/Fellows';
 import Donors from '../components/Donors';
@@ -34,6 +36,8 @@ const HomePage = () => {
       <Hero />
       <FundingProgress />
       <Mission />
+      <About />
+      <EducationCrisis />
       <Scholarship />
       <Fellows />
       <Donors />

@@ -19,6 +19,13 @@ const Navigation = () => {
         <ul className="hidden md:flex list-none gap-12">
           <li>
             {isHomePage ? (
+              <a href="#about" className="text-white font-semibold text-sm uppercase tracking-wide hover:text-yellow transition-colors">About</a>
+            ) : (
+              <Link to="/#about" className="text-white font-semibold text-sm uppercase tracking-wide hover:text-yellow transition-colors">About</Link>
+            )}
+          </li>
+          <li>
+            {isHomePage ? (
               <a href="#mission" className="text-white font-semibold text-sm uppercase tracking-wide hover:text-yellow transition-colors">Mission</a>
             ) : (
               <Link to="/mission" className="text-white font-semibold text-sm uppercase tracking-wide hover:text-yellow transition-colors">Mission</Link>
