@@ -28,7 +28,8 @@ const Donors = () => {
       { name: 'Kira Reddy' },
       { name: 'Nicole Suen' },
       { name: 'Dharam' },
-      { name: 'Raenissa Reddy' }
+      { name: 'Raenissa Reddy' },
+      { name: 'Lutchmee Naidoo' }
     ]
   };
 
