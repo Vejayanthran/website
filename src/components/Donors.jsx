@@ -16,10 +16,10 @@ const Donors = () => {
       { name: 'Rachel Ng\'ethe' },
       { name: 'Etienne de Bruin', url: 'https://newtechnical.fund/' },
       { name: 'Priya Singh' },
-      { name: 'Sagnee' }
+      { name: 'Sagnee' },
+      { name: 'Rama Govenden' }
     ],
     silver: [
-      { name: 'Rama Govenden' },
       { name: 'Joshay Harkoo' },
       { name: 'Nirvaan' },
       { name: 'Mikahra and Kayra Naidoo' },
